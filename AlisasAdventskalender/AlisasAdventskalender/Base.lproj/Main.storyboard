@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlisasAdventskalender" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tree2" translatesAutoresizingMaskIntoConstraints="NO" id="FDc-QK-eD1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgP-Yd-JEF">
+                                <rect key="frame" x="100" y="84" width="175" height="42"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="26"/>
+                                <state key="normal" title="Türchen öffnen"/>
+                                <connections>
+                                    <action selector="open:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F3Z-hV-A9R"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bo7-aZ-Hdn">
+                                <rect key="frame" x="47.5" y="252" width="280" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="9gi-A5-f5N"/>
+                                    <constraint firstAttribute="width" constant="280" id="Wxg-WN-0Mu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01.12.2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Iy-PA-iKX">
+                                <rect key="frame" x="127.5" y="13" width="120.5" height="28"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tgP-Yd-JEF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JqL-gx-DUj"/>
+                            <constraint firstItem="FDc-QK-eD1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="K2u-j9-lw2"/>
+                            <constraint firstItem="FDc-QK-eD1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RiY-Y3-Me9"/>
+                            <constraint firstItem="5Iy-PA-iKX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uef-W8-GyC"/>
+                            <constraint firstItem="tgP-Yd-JEF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="84" id="b6b-FT-0W3"/>
+                            <constraint firstItem="FDc-QK-eD1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bSB-Zt-L0J"/>
+                            <constraint firstItem="5Iy-PA-iKX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="bho-jK-n1z"/>
+                            <constraint firstAttribute="bottom" secondItem="FDc-QK-eD1" secondAttribute="bottom" id="d6g-MB-cJ5"/>
+                            <constraint firstItem="bo7-aZ-Hdn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dcW-pH-kb7"/>
+                            <constraint firstItem="bo7-aZ-Hdn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dos-nu-qhj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dayLabel" destination="5Iy-PA-iKX" id="4Pf-ac-cUU"/>
+                        <outlet property="imageView" destination="bo7-aZ-Hdn" id="fPa-ug-uMU"/>
+                        <outlet property="openButton" destination="tgP-Yd-JEF" id="9mh-wz-Wpx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="97.601199400299862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tree2" width="4000" height="6000"/>
+    </resources>
+</document>

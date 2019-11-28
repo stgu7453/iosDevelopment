@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E78C1C2238FB8FC00A08C5A /* bells.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E78C1C1238FB8FC00A08C5A /* bells.wav */; };
+		1ED1E6FE238E6E8F00B8E6FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1E6FD238E6E8F00B8E6FE /* AppDelegate.swift */; };
+		1ED1E700238E6E8F00B8E6FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1E6FF238E6E8F00B8E6FE /* SceneDelegate.swift */; };
+		1ED1E702238E6E8F00B8E6FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED1E701238E6E8F00B8E6FE /* ViewController.swift */; };
+		1ED1E705238E6E8F00B8E6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1E703238E6E8F00B8E6FE /* Main.storyboard */; };
+		1ED1E707238E6E9400B8E6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1E706238E6E9400B8E6FE /* Assets.xcassets */; };
+		1ED1E70A238E6E9400B8E6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1E708238E6E9400B8E6FE /* LaunchScreen.storyboard */; };
+		1ED1E714238E715500B8E6FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED1E713238E715500B8E6FE /* GoogleService-Info.plist */; };
+		2D15248DCD2B38A44DC4B7F3 /* Pods_AlisasAdventskalender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5BD0F5C6C2F28240E0096A /* Pods_AlisasAdventskalender.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02B2A21FDF644532DF460874 /* Pods-AlisasAdventskalender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlisasAdventskalender.debug.xcconfig"; path = "Target Support Files/Pods-AlisasAdventskalender/Pods-AlisasAdventskalender.debug.xcconfig"; sourceTree = "<group>"; };
+		1E78C1C1238FB8FC00A08C5A /* bells.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bells.wav; sourceTree = "<group>"; };
+		1ED1E6FA238E6E8F00B8E6FE /* Daily X-Mas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily X-Mas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED1E6FD238E6E8F00B8E6FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ED1E6FF238E6E8F00B8E6FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ED1E701238E6E8F00B8E6FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ED1E704238E6E8F00B8E6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ED1E706238E6E9400B8E6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED1E709238E6E9400B8E6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ED1E70B238E6E9400B8E6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED1E713238E715500B8E6FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C5BD0F5C6C2F28240E0096A /* Pods_AlisasAdventskalender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlisasAdventskalender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F106916279BB70F2E78130CC /* Pods-AlisasAdventskalender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlisasAdventskalender.release.xcconfig"; path = "Target Support Files/Pods-AlisasAdventskalender/Pods-AlisasAdventskalender.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED1E6F7238E6E8F00B8E6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D15248DCD2B38A44DC4B7F3 /* Pods_AlisasAdventskalender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E78C1C0238FB8E200A08C5A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1E78C1C1238FB8FC00A08C5A /* bells.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1ED1E6F1238E6E8F00B8E6FE = {
+			isa = PBXGroup;
+			children = (
+				1ED1E6FC238E6E8F00B8E6FE /* AlisasAdventskalender */,
+				1ED1E6FB238E6E8F00B8E6FE /* Products */,
+				2DCCC7F6CD6002C9267D50D6 /* Pods */,
+				75B19E831DABC86081BEFFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED1E6FB238E6E8F00B8E6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED1E6FA238E6E8F00B8E6FE /* Daily X-Mas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED1E6FC238E6E8F00B8E6FE /* AlisasAdventskalender */ = {
+			isa = PBXGroup;
+			children = (
+				1E78C1C0238FB8E200A08C5A /* Sounds */,
+				1ED1E713238E715500B8E6FE /* GoogleService-Info.plist */,
+				1ED1E6FD238E6E8F00B8E6FE /* AppDelegate.swift */,
+				1ED1E6FF238E6E8F00B8E6FE /* SceneDelegate.swift */,
+				1ED1E701238E6E8F00B8E6FE /* ViewController.swift */,
+				1ED1E703238E6E8F00B8E6FE /* Main.storyboard */,
+				1ED1E706238E6E9400B8E6FE /* Assets.xcassets */,
+				1ED1E708238E6E9400B8E6FE /* LaunchScreen.storyboard */,
+				1ED1E70B238E6E9400B8E6FE /* Info.plist */,
+			);
+			path = AlisasAdventskalender;
+			sourceTree = "<group>";
+		};
+		2DCCC7F6CD6002C9267D50D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02B2A21FDF644532DF460874 /* Pods-AlisasAdventskalender.debug.xcconfig */,
+				F106916279BB70F2E78130CC /* Pods-AlisasAdventskalender.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75B19E831DABC86081BEFFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5BD0F5C6C2F28240E0096A /* Pods_AlisasAdventskalender.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED1E6F9238E6E8F00B8E6FE /* AlisasAdventskalender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED1E70E238E6E9400B8E6FE /* Build configuration list for PBXNativeTarget "AlisasAdventskalender" */;
+			buildPhases = (
+				39B053FDFCED1AD3A4812059 /* [CP] Check Pods Manifest.lock */,
+				1ED1E6F6238E6E8F00B8E6FE /* Sources */,
+				1ED1E6F7238E6E8F00B8E6FE /* Frameworks */,
+				1ED1E6F8238E6E8F00B8E6FE /* Resources */,
+				4A32E50331E142354836F254 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlisasAdventskalender;
+			productName = AlisasAdventskalender;
+			productReference = 1ED1E6FA238E6E8F00B8E6FE /* Daily X-Mas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED1E6F2238E6E8F00B8E6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Gundev;
+				TargetAttributes = {
+					1ED1E6F9238E6E8F00B8E6FE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1ED1E6F5238E6E8F00B8E6FE /* Build configuration list for PBXProject "AlisasAdventskalender" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED1E6F1238E6E8F00B8E6FE;
+			productRefGroup = 1ED1E6FB238E6E8F00B8E6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED1E6F9238E6E8F00B8E6FE /* AlisasAdventskalender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED1E6F8238E6E8F00B8E6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED1E70A238E6E9400B8E6FE /* LaunchScreen.storyboard in Resources */,
+				1E78C1C2238FB8FC00A08C5A /* bells.wav in Resources */,
+				1ED1E714238E715500B8E6FE /* GoogleService-Info.plist in Resources */,
+				1ED1E707238E6E9400B8E6FE /* Assets.xcassets in Resources */,
+				1ED1E705238E6E8F00B8E6FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B053FDFCED1AD3A4812059 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlisasAdventskalender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A32E50331E142354836F254 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlisasAdventskalender/Pods-AlisasAdventskalender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlisasAdventskalender/Pods-AlisasAdventskalender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlisasAdventskalender/Pods-AlisasAdventskalender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED1E6F6238E6E8F00B8E6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED1E702238E6E8F00B8E6FE /* ViewController.swift in Sources */,
+				1ED1E6FE238E6E8F00B8E6FE /* AppDelegate.swift in Sources */,
+				1ED1E700238E6E8F00B8E6FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ED1E703238E6E8F00B8E6FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED1E704238E6E8F00B8E6FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ED1E708238E6E9400B8E6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED1E709238E6E9400B8E6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED1E70C238E6E9400B8E6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ED1E70D238E6E9400B8E6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED1E70F238E6E9400B8E6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B2A21FDF644532DF460874 /* Pods-AlisasAdventskalender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNGBN9N8NQ;
+				INFOPLIST_FILE = AlisasAdventskalender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.gundev.AlisasAdventskalender;
+				PRODUCT_NAME = "Daily X-Mas";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ED1E710238E6E9400B8E6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F106916279BB70F2E78130CC /* Pods-AlisasAdventskalender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNGBN9N8NQ;
+				INFOPLIST_FILE = AlisasAdventskalender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.gundev.AlisasAdventskalender;
+				PRODUCT_NAME = "Daily X-Mas";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED1E6F5238E6E8F00B8E6FE /* Build configuration list for PBXProject "AlisasAdventskalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED1E70C238E6E9400B8E6FE /* Debug */,
+				1ED1E70D238E6E9400B8E6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED1E70E238E6E9400B8E6FE /* Build configuration list for PBXNativeTarget "AlisasAdventskalender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED1E70F238E6E9400B8E6FE /* Debug */,
+				1ED1E710238E6E9400B8E6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ED1E6F2238E6E8F00B8E6FE /* Project object */;
+}
